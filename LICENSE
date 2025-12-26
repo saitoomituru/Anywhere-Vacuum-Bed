@@ -1,0 +1,90 @@
+CERN Open Hardware Licence Version 2 - Permissive
+
+Copyright (C) 2025 齋藤みつる
+
+This source describes Open Hardware and is licensed under the
+CERN-OHL-P v2.
+
+You may redistribute and modify this documentation and make products
+using it under the terms of the CERN-OHL-P v2 (https://ohwr.org/cern_ohl_p_v2.txt).
+
+This documentation is distributed WITHOUT ANY EXPRESS OR IMPLIED
+WARRANTY, INCLUDING OF MERCHANTABILITY, SATISFACTORY QUALITY AND
+FITNESS FOR A PARTICULAR PURPOSE. Please see the CERN-OHL-P v2 for
+applicable conditions.
+
+---------------------------------------------------------------------
+
+CERN OPEN HARDWARE LICENCE Version 2 – Permissive
+
+1. Definitions
+
+“Licence” means this CERN Open Hardware Licence Version 2 – Permissive.
+
+“Documentation” means schematic diagrams, designs, circuit or circuit
+board layouts, mechanical drawings, flow charts and descriptive text,
+and other explanatory material that is explicitly stated as being made
+available under the Licence.
+
+“Product” means either an entire, or any part of, a device, component,
+method or process which is manufactured using the Documentation.
+
+2. Applicability
+
+This Licence governs the use, copying, modification, communication and
+distribution of the Documentation, and the manufacture and distribution
+of Products.
+
+3. Grant of rights
+
+The Licensor grants You a worldwide, royalty-free, non-exclusive,
+perpetual licence to use, copy, modify and communicate the
+Documentation, and to manufacture, use, sell, offer for sale, import,
+export, distribute and otherwise dispose of Products.
+
+4. Source
+
+You are not required to distribute Documentation when distributing
+Products.
+
+5. Attribution
+
+You must retain any notices of attribution, copyright or licence in the
+Documentation, and reproduce them in a location visible to users of the
+Documentation.
+
+6. Warranty and liability
+
+The Documentation and any Product are provided “AS IS”, without
+warranty of any kind, express or implied, including but not limited to
+the warranties of merchantability, fitness for a particular purpose,
+and non-infringement.
+
+The Licensor shall not be liable for any direct, indirect, incidental,
+special, exemplary or consequential damages, including but not limited
+to procurement of substitute goods or services, loss of use, data or
+profits, or business interruption, however caused and on any theory of
+liability, whether in contract, strict liability or tort (including
+negligence or otherwise) arising in any way out of the use of the
+Documentation or Product, even if advised of the possibility of such
+damage.
+
+7. Termination
+
+This Licence is effective until terminated. Your rights under this
+Licence will terminate automatically if You fail to comply with any of
+its terms.
+
+8. General
+
+This Licence does not grant permission to use the trade names,
+trademarks, service marks, or product names of the Licensor, except as
+required for reasonable and customary use in describing the origin of
+the Documentation or Product.
+
+This Licence shall be governed by and construed in accordance with the
+laws of Switzerland.
+
+---------------------------------------------------------------------
+
+END OF TERMS AND CONDITIONS
