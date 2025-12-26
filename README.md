@@ -4,7 +4,7 @@
 掃除機と袋があれば、どこでも簡易的な真空固定・圧縮ができる  
 オープンソースのバキューム治具です。
 
-![overview](/document/img/overview.jpg)
+![overview](document/img/overview.jpg)
 
 3Dプリンタ（FDM）で再現可能。  
 専用シートや高価な真空ポンプは不要です。
@@ -38,130 +38,34 @@
 
 ---
 
+## クイックリンク（最初に読む）
+
+- 🔧 **組み立て方法（Assembly）**  
+  → [`document/howto/assembly.md`](document/howto/assembly.md)
+
+- 🧰 **使い方：伸縮性のない一般ゴミ袋**  
+  → [`document/howto/use_trashbag.md`](document/howto/use_trashbag.md)
+
+- 📐 **FreeCAD 全体アセンブリ**  
+  → [`Assembly.FCStd`](Assembly.FCStd)
+
+---
+
 ## ディレクトリ構成
+
+```text
 /
 ├─ README.md
-├─ Assembly.FCStd # 全体アセンブリ（FreeCAD）
+├─ Assembly.FCStd              # 全体アセンブリ（FreeCAD）
 ├─ Bild/
-│ └─ Assy/
-│ └─ 各パーツ.FCStd # 個別パーツ（FreeCAD）
+│  └─ Assy/
+│     └─ *.FCStd               # 各パーツ（FreeCAD）
 ├─ stage/
-│ └─ stl/
-│ └─ 各パーツ.stl # 3Dプリント用STL
-│
-└─ (追加予定)
+│  └─ stl/
+│     └─ *.stl                 # 3Dプリント用STL
 └─ document/
-├─ images/ # 写真・図解
-└─ howto/ # 作り方・調整方法
-
-
----
-
-## 仕組みについて（設計思想）
-
-### 裏側リブ構造
-裏側の放射リブ形状は、
-
-- 薄い素材が吸着時に流路を塞がない
-- 真空初速を維持
-- 完全密閉にならず自然解除しやすい
-
-という **安全側に倒した流路保持構造**です。
-
----
-
-## シールについて（FDM前提）
-
-本設計では **シリコングリスの使用を前提**としています。
-
-- FDM積層による微細リーク対策
-- 材料・プリンタ個体差の吸収
-- 分解・清掃・再利用が容易
-
-### 塗布箇所
-- 外周の袋シール溝
-- **中央の逆流防止ゴム面（薄塗り）**
-
-※ 潤滑ではなく **気密補助目的**です。
-
----
-
-## 袋の取り付け方法（2通り）
-
-### ① 伸びる素材（PE / TPU など）
-1. 袋に **約52mmの穴**を開ける
-2. 本体に袋を挟み、ネジで固定
-
-### ② 伸びない素材（PP / 硬質PVC 等）
-1. **袋に下穴は開けない**
-2. そのまま本体に袋を挟んで固定
-3. バキューム前に  
-   **中央吸入口に指を入れて袋を破る**
-4. そのまま吸引開始
-
-※ 中央弁構造により、  
-　破断後も袋が吸い込まれにくい設計です。
-
----
-
-## 使用・解除方法（概要）
-
-### 使用
-1. 袋に対象物を入れる
-2. 袋の口を縛る
-3. 掃除機で吸引
-
-### 解除
-- ネジを外す
-- 袋の端をつまむ  
-（工具不要）
-
----
-
-## 3Dプリントについて
-
-- 推奨方式：FDM
-- 材質：PLA / PETG / ABS（用途に応じて）
-- 機能面（シール面）は **ビルドプレート直置き推奨**
-- サポート不要設計
-
----
-
-## ライセンス
-
-本プロジェクトは **CERN Open Hardware Licence Version 2 – Permissive (CERN-OHL-P)**  
-の下で公開されています。
-
-- 商用利用可
-- 改変可
-- 再配布可
-- 派生物の公開義務なし
-
-⚠ **本設計の使用により生じた事故・損害について、作者は一切の責任を負いません。**
-
-ライセンス全文：  
-https://ohwr.org/cern_ohl_p_v2.txt
-
----
-
-## 名前について
-
-「どこでもバキュームベット」は  
-**ドラえもん道具的に、誰でも・どこでも使える道具**  
-という思想から名付けています。
-
-用途・文脈・分野は限定していません。
-
----
-
-## English (Short)
-
-**Anywhere Vacuum Bed**  
-An open-source vacuum fixture using a vacuum cleaner and plastic bags.
-
-Released under **CERN-OHL-P v2**.  
-Use at your own risk, for any object or body.
-
----
-
-
+   ├─ img/                     # 写真・図解
+   └─ howto/                   # 作り方・使用方法
+      ├─ assembly.md
+      └─ use_trashbag.md
+```
